@@ -1,0 +1,8 @@
+<div>
+    <button (click)="onSelectUser()" >
+        <img [src] = "imagePath"       
+             [alt] = "name"
+             />      <!--property binding-->
+        <span>{{ name }}</span>                        <!--able to access public components using {{}}, here user.component.ts, also example of string interpolation-->
+    </button>
+</div>
